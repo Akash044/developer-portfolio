@@ -19,7 +19,7 @@ const ContactMe = () => {
         <h6> <FontAwesomeIcon style={{color:"#7050ef"}} icon={faEnvelope} /> akash.cse.ruet@gmail.com</h6>
         <h6><FontAwesomeIcon style={{color:"#7050ef"}} icon={faPhoneAlt} /> +8801737605991</h6>
       </div>
-      <div className="second-half shadow">
+      <div className="second-half shadow" data-aos="fade-up">
         <div className="form-upper-portion">
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">

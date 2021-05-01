@@ -25,7 +25,7 @@ const Projects = () => {
     <div>
       <Navbar />
       <div className="project-page">
-        <div className="project-body shadow">
+        <div className="project-body shadow" data-aos="fade-down">
 
           <div className="project-info">
             {/* //project information */}
@@ -33,12 +33,28 @@ const Projects = () => {
               {/* //header */}
               <h1>Cool Repair</h1>{" "}
               <a
-                style={{ display: "inline" }}
+                className="me-2"
                 target="_blank"
                 rel="noreferrer"
                 href="https://cool-repair.web.app/"
               >
                 Preview
+              </a>
+              <a
+                className="me-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Cool-Repair-Client"
+              >
+                client code
+              </a>
+              <a
+                style={{ display: "inline" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Cool-Repair-Server"
+              >
+                server code
               </a>
               <h5>
                 A full stack project of electrical appliances repair and
@@ -199,19 +215,35 @@ const Projects = () => {
         </div> 
 
         {/* 2nd project */}
-        <div className="project-body shadow">
+        <div className="project-body shadow" data-aos="fade-left">
           <div className="project-info">
             {/* //project information */}
             <div>
               {/* //header */}
               <h1>Prime Books</h1>{" "}
               <a
-                style={{ display: "inline" }}
+                className="me-2"
                 target="_blank"
                 rel="noreferrer"
                 href="https://prime-books-auth.web.app/"
               >
                 Preview
+              </a>
+              <a
+                className="me-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Prime-Books-Client"
+              >
+                client code
+              </a>
+              <a
+                style={{ display: "inline" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Prime-Books-Server"
+              >
+                server code
               </a>
               <h5>A full stack project of online book store.</h5>
             </div>
@@ -322,7 +354,7 @@ const Projects = () => {
             <div></div>
           </div>
 
-          <div className="screenshot-portion">
+          <div className="screenshot-portion" data-aos="fade-down-left">
             {/* screenshot portion */}
 
             <div>
@@ -362,19 +394,30 @@ const Projects = () => {
 {/* 2nd project end here */}
 
 {/* 3rd project start here */}
-        <div className="project-body shadow">
+        <div className="project-body shadow" 
+        data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <div className="project-info">
             {/* //project information */}
             <div>
               {/* //header */}
               <h1>Dhaka Metro</h1>{" "}
               <a
-                style={{ display: "inline" }}
+                className="me-2"
                 target="_blank"
                 rel="noreferrer"
                 href="https://dhaka-metro-7f59d.web.app/"
               >
                 Preview
+              </a>
+              <a
+                className="me-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Dhaka-Metro"
+              >
+                client code
               </a>
               <h5>A platform of buying metro rail ticket.</h5>
             </div>
@@ -516,19 +559,26 @@ const Projects = () => {
         {/* 3rd project end here */}
 
         {/* 4th project start here */}
-        <div className="project-body shadow">
+        <div className="project-body shadow" data-aos="slide-up">
           <div className="project-info">
             {/* //project information */}
             <div>
               {/* //header */}
               <h1>Hungry Monster</h1>{" "}
               <a
-                style={{ display: "inline" }}
+                className="me-2"
                 target="_blank"
                 rel="noreferrer"
                 href="https://akash044.github.io/Hungry-monstar/"
               >
                 Preview
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Akash044/Hungry-monstar"
+              >
+                client code
               </a>
               <h5>Search and know the food details</h5>
             </div>

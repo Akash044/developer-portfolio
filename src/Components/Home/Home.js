@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home-page">
       <Navbar />
       <div className="home-page-header">
-        <div className="left-portion">
+        <div className="left-portion" data-aos="fade-up">
           <div>
             <h1 style={{ fontSize:"70px"}}>
               Hey, I'm Junior{" "}
