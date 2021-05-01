@@ -1,0 +1,40 @@
+.contact-me-container{
+    height:500px;
+    padding:50px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap:10px;
+    background-color: #ffffff;
+}
+.form-upper-portion{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap:30px;
+
+}
+.first-half{
+    padding:90px;
+}
+.second-half{
+    border-radius: 40px;
+    padding:50px;
+    margin-top: 30px;
+
+}
+.send-btn{
+    background-color: #7050ef;
+    border-radius:10px;
+    color:white;
+    box-shadow:5px;
+}
+.in{
+    background: #f7f7f9;
+    font-family:"Arial","FontAwesome";
+}
+input[type="email"]:focus {
+    border: 3px solid #aa95f5;
+  }

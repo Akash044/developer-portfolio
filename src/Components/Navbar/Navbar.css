@@ -1,0 +1,8 @@
+.li:hover{
+    background: #ccbcf1;
+    color:#7050ef;
+    border-radius:10px;
+}
+.li:focus{
+    background-color: red;
+}
