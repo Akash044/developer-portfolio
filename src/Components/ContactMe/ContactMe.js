@@ -3,8 +3,24 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import Navbar from "../Navbar/Navbar";
+import emailjs from 'emailjs-com';
 
 const ContactMe = () => {
+
+   const handleContactForm = (e) => {
+     console.log(e.target);
+    e.preventDefault();
+
+    emailjs.sendForm('service_swi698q', 'template_is1cqdn', e.target, 'user_l17moyuVUnIOlhzLVD5rN')
+      .then((result) => {
+          alert("Message is sent!!!");
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+   }
+
+
   return ( <div>
     <Navbar />
     
@@ -19,13 +35,14 @@ const ContactMe = () => {
         <h6> <FontAwesomeIcon style={{color:"#7050ef"}} icon={faEnvelope} /> akash.cse.ruet@gmail.com</h6>
         <h6><FontAwesomeIcon style={{color:"#7050ef"}} icon={faPhoneAlt} /> +8801737605991</h6>
       </div>
-      <div className="second-half shadow" data-aos="fade-up">
-        <div className="form-upper-portion">
+      <form onSubmit={handleContactForm} className="second-half shadow" data-aos="fade-up">
+        <div  className="form-upper-portion">
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">
               {/* Email address */}
             </label>
             <input
+            name="email"
               type="email"
               className="form-control in"
               id="exampleFormControlInput1"
@@ -37,7 +54,8 @@ const ContactMe = () => {
             {/* Full name */}
             </label>
             <input
-              type="email"
+            name="name"
+              type="text"
               className="form-control in"
               id="exampleFormControlInput1"
               placeholder="&#xf007; name"
@@ -48,6 +66,7 @@ const ContactMe = () => {
               {/* Company name */}
             </label>
             <input
+            name="user_company"
               type="text"
               className="form-control in"
               id="exampleFormControlInput1"
@@ -59,6 +78,7 @@ const ContactMe = () => {
               {/* Subject */}
             </label>
             <input
+            name="subject"
               type="text"
               className="form-control in"
               id="exampleFormControlInput1"
@@ -70,14 +90,15 @@ const ContactMe = () => {
           <label for="exampleFormControlTextarea1" className="form-label">
           </label>
           <textarea
+          name="message"
             className="form-control in"
             id="exampleFormControlTextarea1"
             rows="3"
             placeholder="&#xf27a; your message"
           ></textarea>
         </div>
-        <button className="btn send-btn">send message</button>
-      </div>
+        <button type="submit" className="btn send-btn">send message</button>
+      </form>
     </div>
     </div>
   );

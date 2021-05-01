@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Skills from "../Skills/Skills";
 import "./Home.css";
 
 const Home = () => {
-  return (
+  return (<>
     <div className="home-page">
       <Navbar />
       <div className="home-page-header">
@@ -15,12 +16,16 @@ const Home = () => {
             </h1>
           </div>
           <div></div>
-          <div></div>
+          <div>
+            <a href="https://drive.google.com/uc?export=download&id=1PZeXz4t0pWDS-rgJssCvQJeBCNbDv_GM"><button className="btn fw-bold" style={{ background:"tomato"}}>Download resume</button></a>
+            
+          </div>
           <div></div>
         </div>
         <div></div>
       </div>
     </div>
+    </>
   );
 };
 
