@@ -36,6 +36,7 @@ const ContactMe = () => {
         <h6><FontAwesomeIcon style={{color:"#7050ef"}} icon={faPhoneAlt} /> +8801737605991</h6>
       </div>
       <form onSubmit={handleContactForm} className="second-half shadow" data-aos="fade-up">
+        <h4>Contact with me:</h4>
         <div  className="form-upper-portion">
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">

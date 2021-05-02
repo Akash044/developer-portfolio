@@ -1,6 +1,29 @@
 .cv-page{
-    height:600px;
-    display:grid;
-    justify-content: center;
-    align-items: center;
+    height:1000px;
+    background: #f5f7ff;
 }
+.skill-section{
+    padding:10px;
+    border-radius:20px;
+    background: #ffffff;
+    display:grid;
+    margin: auto;
+}
+.skill-ex-info{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px ,1fr));
+    grid-gap:5px;
+}
+.skills-fam-info{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px ,1fr));
+    grid-gap:5px;
+    margin: auto;
+}
+.skills-header{
+    width:50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+

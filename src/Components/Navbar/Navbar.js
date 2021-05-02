@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
       <div className="container">
         <Link to="/" className="navbar-brand d-flex w-50 me-auto">
-          Navbar 3
+          <h5>Akash's Portfolio</h5>
         </Link>
         <button
           className="navbar-toggler"
@@ -35,8 +35,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item li">
-              <Link to="/cv" className="nav-link">
-                <h5>CV</h5>
+              <Link to="/resume" className="nav-link">
+                <h5>Resume</h5>
               </Link>
             </li>
 

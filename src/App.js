@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact">
           <ContactMe />
         </Route>
-        <Route path="/cv">
+        <Route path="/resume">
           <CV />
         </Route>
       </Switch>

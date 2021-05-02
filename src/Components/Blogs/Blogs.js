@@ -6,7 +6,9 @@ const Blogs = () => {
     return (
         <div>
             <Navbar />
+            <div className="blogs-page">
             <h3>Blogs are coming soon...</h3>
+            </div>
         </div>
     );
 };
