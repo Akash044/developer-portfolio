@@ -25,6 +25,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item li">
+              <Link to="/resume" className="nav-link">
+                <h5>Resume</h5>
+              </Link>
+            </li>
+            <li className="nav-item li">
               <Link to="/projects" className="nav-link">
                 <h5>Projects</h5>
               </Link>
@@ -34,16 +39,15 @@ const Navbar = () => {
                 <h5>Blogs</h5>
               </Link>
             </li>
-            <li className="nav-item li">
-              <Link to="/resume" className="nav-link">
-                <h5>Resume</h5>
-              </Link>
-            </li>
+            
 
             <li className="nav-item li">
               <Link to="/contact" className="nav-link">
                 <h5>Contact</h5>
               </Link>
+            </li>
+            <li className="nav-item li">
+            <a href="https://drive.google.com/uc?export=download&id=1PZeXz4t0pWDS-rgJssCvQJeBCNbDv_GM"><button className="btn fw-bold" style={{ background:"tomato"}}>Download resume</button></a>
             </li>
           </ul>
         </div>

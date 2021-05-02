@@ -2,6 +2,8 @@ import "./ContactMe.css";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+
 import Navbar from "../Navbar/Navbar";
 import emailjs from 'emailjs-com';
 
@@ -28,12 +30,12 @@ const ContactMe = () => {
       <div className="first-half">
         <h1>let's work together</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis
-          repellat minus quaerat officia libero sequi in? Quia culpa adipisci
-          saepe alias vitae! Id saepe atque cum ullam quia voluptas!
+          I'm very optimistic to achieve your goals!
         </p>
         <h6> <FontAwesomeIcon style={{color:"#7050ef"}} icon={faEnvelope} /> akash.cse.ruet@gmail.com</h6>
         <h6><FontAwesomeIcon style={{color:"#7050ef"}} icon={faPhoneAlt} /> +8801737605991</h6>
+        <a href="https://github.com/Akash044" style={{textDecoration:"none"}} target="_blank"><FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" />/Akash044 </a> <br/>
+            <a href="https://www.linkedin.com/in/akash044/" style={{textDecoration:"none"}} target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" />/Akash044 </a>
       </div>
       <form onSubmit={handleContactForm} className="second-half shadow" data-aos="fade-up">
         <h4>Contact with me:</h4>

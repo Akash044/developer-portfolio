@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import Skills from "../Skills/Skills";
 import "./Home.css";
 import propic from "../../Images/mypic2.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
@@ -11,7 +13,7 @@ const Home = () => {
       <div className="home-page-header">
         <div className="left-portion" data-aos="fade-up">
           <div>
-            <h1 style={{ fontSize:"70px"}}>
+            <h1 style={{ fontSize:"60px"}}>
               Hey, I'm a Junior{" "}
               <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
             </h1>
@@ -19,14 +21,22 @@ const Home = () => {
           <div data-aos="fade-down-left">
             <p style={{ color: "gray", fontSize:"19px" }}>Hi, I'm Akash a full stack web developer. I help brands turn their ideas into high quality products.</p>
           </div>
+          <div className="pb-2">
+
+            <a href="https://github.com/Akash044" style={{padding:"5px",textDecoration:"none"}}><FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" /> </a>
+            <a href="https://www.linkedin.com/in/akash044/" style={{padding:"5px",textDecoration:"none"}}><FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" /> </a>
+            <a href="https://www.facebook.com/akash.hossain.5895/" style={{padding:"5px",textDecoration:"none"}}><FontAwesomeIcon icon={faFacebookSquare} size="2x" color="#385898" /> </a>
+
+          </div>
           <div>
             <a href="https://drive.google.com/uc?export=download&id=1PZeXz4t0pWDS-rgJssCvQJeBCNbDv_GM"><button className="btn fw-bold" style={{ background:"tomato"}}>Download resume</button></a>
             
           </div>
-          <div></div>
+         
         </div>
         <div data-aos="fade-down-left">
-          <img src={propic} style={{ width:"35rem",paddingTop:"40px"}}alt=""/>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  style={{width: "500px", height: "400px"}} loop autoplay></lottie-player>
+          {/* <img src={propic} style={{ width:"35rem",paddingTop:"40px"}}alt=""/> */}
         </div>
       </div>
     </div>

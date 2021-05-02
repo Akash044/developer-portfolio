@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 
 import im1 from "../../Images/p01/p01 p01.jpg";
@@ -21,10 +21,24 @@ import img08 from '../../Images/p04/p04 p04.jpg';
 import Navbar from "../Navbar/Navbar";
 
 const Projects = () => {
+//   const [image, setImage] = useState({})
+
+//  const handleMouseOver = (e) => {
+//          console.log(e.target.src)
+//          setImage({src: e.target.src});
+//  }
+//  const handleOnClick = (e) => {
+//    e.target.style.display = "none";
+//    setImage({});
+//  }
+  
   return (
     <div>
       <Navbar />
       <div className="project-page">
+        <div>
+          {/* <img src={image.src} style={{ width:"30rem"}} onClick={handleOnClick} alt=""/> */}
+        </div>
         <div className="project-body shadow" data-aos="fade-down">
 
           <div className="project-info">
@@ -181,6 +195,7 @@ const Projects = () => {
             {/* screenshot portion */}
             <div>
               <img
+                // onMouseOver = {handleMouseOver}
                 style={{ width: "18rem" }}
                 className="shadow rounded p-2 m-1"
                 src={im3}
