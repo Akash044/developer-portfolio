@@ -6,3 +6,9 @@
 .li:focus{
     background-color: red;
 }
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #3a5fb6;
+    z-index: 3;
+  }

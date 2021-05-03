@@ -5,21 +5,23 @@ import "./Home.css";
 import propic from "../../Images/mypic2.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+import DiagonalShape from "../DiagonalShape/DiagonalShape";
 
 const Home = () => {
   return (
     <div className="home-page">
       <Navbar />
+      <DiagonalShape />
       <div className="home-page-header">
         <div className="left-portion" data-aos="fade-up">
-          <div>
+          <div className="left-text" >
             <h1 style={{ fontSize:"60px"}}>
               Hey, I'm a Junior{" "}
               <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
             </h1>
           </div>
           <div data-aos="fade-down-left">
-            <p style={{ color: "gray", fontSize:"19px" }}>Hi, I'm Akash a full stack web developer. I help brands turn their ideas into high quality products.</p>
+            <p style={{ color: "white", fontSize:"19px" }}>Hi, I'm Akash a full stack web developer. I help brands turn their ideas into high quality products.</p>
           </div>
           <div className="pb-2">
 
@@ -34,8 +36,8 @@ const Home = () => {
           </div>
          
         </div>
-        <div data-aos="fade-down-left">
-        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  style={{width: "500px", height: "400px"}} loop autoplay></lottie-player>
+        <div className="right-side" data-aos="fade-down-left">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json" className="lottie-img"  background="transparent"  speed="1"  loop autoplay></lottie-player>
           {/* <img src={propic} style={{ width:"35rem",paddingTop:"40px"}}alt=""/> */}
         </div>
       </div>

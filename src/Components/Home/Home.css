@@ -1,7 +1,7 @@
 .home-page{
-    background-image: url(../../Images/top-banner.png);
+    /* background-image: url(../../Images/top-banner.png); */
     background-repeat: no-repeat;
-    height:500px;
+    height:300px;
     width: 100%;
 }
 .home-page-header{
@@ -18,3 +18,10 @@
     justify-content:center;
     align-items:center;
 }
+@media screen and (max-width: 700px){
+    .home-page-header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+    

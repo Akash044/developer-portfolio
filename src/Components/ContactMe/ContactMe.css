@@ -39,3 +39,11 @@
 input[type="email"]:focus {
     border: 3px solid #aa95f5;
   }
+
+  @media screen and (max-width: 600px){
+    .first-half,.second-half{
+        padding:20px;
+    
+    }
+   
+}
