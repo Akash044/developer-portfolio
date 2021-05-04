@@ -19,13 +19,13 @@ const Home = () => {
       <div className="home-page-header">
         <div className="left-portion" data-aos="fade-up">
           <div className="left-text-small">
-            <p style={{ fontSize: "30px", fontWeight: "bold" }}>
+            <p style={{ fontSize: "30px", fontWeight: "bold",color:"white" }}>
               Hey, I'm a Junior{" "}
               <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
             </p>
           </div>
-          <div className="left-text-big">
-            <p style={{ fontSize: "60px", fontWeight: "bold" }}>
+          <div className="left-text-big pt-4">
+            <p style={{ fontSize: "60px", fontWeight: "bold", color:"white" }}>
               Hey, I'm a Junior{" "}
               <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
             </p>

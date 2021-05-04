@@ -8,9 +8,9 @@ const Blogs = () => {
         <div>
             <Navbar />
             <DiagonalShape />
-            {/* <div className="blogs-page">
+            <div className="blogs-page text-white">
             <h3>Blogs are coming soon...</h3>
-            </div> */}
+            </div>
         </div>
     );
 };
