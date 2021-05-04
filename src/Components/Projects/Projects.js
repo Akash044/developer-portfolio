@@ -591,7 +591,7 @@ const Projects = () => {
             {/* //project information */}
             <div>
               {/* //header */}
-              <h1>League Tacker</h1>{" "}
+              <h1>League Tracker</h1>{" "}
               <a
                 className="me-2"
                 target="_blank"

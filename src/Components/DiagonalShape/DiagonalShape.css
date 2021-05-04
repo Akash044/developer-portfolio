@@ -12,8 +12,11 @@
     z-index: -1;
 }
 .content{
-    max-width: 50rem;
-    margin: 0 auto;
-    transform: skewY(11deg);
+    height: 600px;
+    max-width: 500rem;
+    margin-top: 300px;
+    background-image: linear-gradient(45deg, #3e37a0, #3a19bd);
+    transform: skewY(24deg);
     position: relative;
+    z-index: -55;
 }
