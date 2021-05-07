@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Skills from "../Skills/Skills";
 import "./Home.css";
-import propic from "../../Images/mypic2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubSquare,
@@ -10,6 +8,7 @@ import {
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import DiagonalShape from "../DiagonalShape/DiagonalShape";
+import ReactTypingEffect from 'react-typing-effect';
 
 const Home = () => {
   return (
@@ -20,15 +19,24 @@ const Home = () => {
         <div className="left-portion" data-aos="fade-up">
           <div className="left-text-small">
             <p style={{ fontSize: "30px", fontWeight: "bold",color:"white" }}>
-              Hey, I'm a Junior{" "}
-              <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
+            Hey, I'm a Junior{" "} <br/>
+              <ReactTypingEffect
+              typingDelay = "500"
+              text={["Front-End Web", "M.E.R.N. Stack","Full Stack Web"]}
+              /> <br/>
+               Developer
             </p>
           </div>
           <div className="left-text-big pt-4">
             <p style={{ fontSize: "60px", fontWeight: "bold", color:"white" }}>
-              Hey, I'm a Junior{" "}
-              <span style={{ color: "#34a1cd" }}>Front-End</span> Web Developer
+              Hey, I'm a Junior{" "} <br/>
+              <ReactTypingEffect
+              typingDelay = "500"
+             text={["Front-End Web", "M.E.R.N. Stack","Full Stack Web"]}
+              /> <br/>
+               Developer
             </p>
+           
           </div>
 
           <div  data-aos="fade-down-left">
