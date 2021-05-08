@@ -41,7 +41,7 @@ const Home = () => {
 
           <div  data-aos="fade-down-left">
             <p className="big-below-txt" style={{ color: "white", fontSize: "19px" }}>
-              Hi, I'm Akash a full stack web developer. I help brands turn their
+              Hi, I'm Akash, Front-End web developer. I help brands turn their
               ideas into high quality products.
             </p>
           </div>
