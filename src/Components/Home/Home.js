@@ -50,19 +50,20 @@ const Home = () => {
               href="https://github.com/Akash044"
               style={{ padding: "5px", textDecoration: "none" }}
             >
-              <FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" />{" "}
+              <FontAwesomeIcon className="bg-white" icon={faGithubSquare} size="2x" color="black" />{" "}
             </a>
             <a
               href="https://www.linkedin.com/in/akash002/"
               style={{ padding: "5px", textDecoration: "none" }}
             >
-              <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" />{" "}
+              <FontAwesomeIcon className="bg-white" icon={faLinkedin} size="2x" color="#0a66c2" />{" "}
             </a>
             <a
               href="https://www.facebook.com/akash.hossain.5895/"
               style={{ padding: "5px", textDecoration: "none" }}
             >
               <FontAwesomeIcon
+              className="bg-white "
                 icon={faFacebookSquare}
                 size="2x"
                 color="#385898"
