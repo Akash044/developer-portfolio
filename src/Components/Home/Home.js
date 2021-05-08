@@ -53,7 +53,7 @@ const Home = () => {
               <FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" />{" "}
             </a>
             <a
-              href="https://www.linkedin.com/in/akash044/"
+              href="https://www.linkedin.com/in/akash002/"
               style={{ padding: "5px", textDecoration: "none" }}
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" />{" "}
