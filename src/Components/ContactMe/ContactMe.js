@@ -14,7 +14,7 @@ const ContactMe = () => {
 
     emailjs.sendForm('service_swi698q', 'template_is1cqdn', e.target, 'user_l17moyuVUnIOlhzLVD5rN')
       .then((result) => {
-          alert("Message is sent!!!");
+          alert("Message sent!!!");
       }, (error) => {
           console.log(error.text);
       });
