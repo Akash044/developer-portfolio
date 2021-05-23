@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "web-developer-portfolio-12611",
-    "staging": "akash-hossain"
+    "staging": "web-developer-portfolio-12611",
+    "production": "web-developer-portfolio-12611"
   }
 }

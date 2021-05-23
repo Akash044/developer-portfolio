@@ -18,13 +18,13 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="navbar-collapse collapse w-100" id="collapsingNavbar3">
-          <ul className="nav navbar-nav ms-auto w-100 justify-content-end">
-            <li className="nav-item li">
+          <ul className="nav navbar-nav ms-auto w-100 justify-content-end text-center">
+            <li className="nav-item  li">
               <Link to="/" className="nav-link text-dark">
                 <h5>Home</h5>
               </Link>
             </li>
-            <li className="nav-item li">
+            <li className="nav-item  li">
               <Link to="/resume" className="nav-link text-dark">
                 <h5>Resume</h5>
               </Link>
