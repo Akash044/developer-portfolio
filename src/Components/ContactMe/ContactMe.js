@@ -10,7 +10,6 @@ import emailjs from 'emailjs-com';
 const ContactMe = () => {
 
    const handleContactForm = (e) => {
-     console.log(e.target);
     e.preventDefault();
 
     emailjs.sendForm('service_swi698q', 'template_is1cqdn', e.target, 'user_l17moyuVUnIOlhzLVD5rN')
@@ -34,8 +33,8 @@ const ContactMe = () => {
         </p>
         <h6> <FontAwesomeIcon style={{color:"#7050ef"}} icon={faEnvelope} /> akash.cse.ruet@gmail.com</h6>
         <h6><FontAwesomeIcon style={{color:"#7050ef"}} icon={faPhoneAlt} /> +8801737605991</h6>
-        <a href="https://github.com/Akash044" style={{textDecoration:"none"}} target="_blank"><FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" />/Akash044 </a> <br/>
-            <a href="https://www.linkedin.com/in/akash044/" style={{textDecoration:"none"}} target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" />/Akash044 </a>
+        <a href="https://github.com/Akash044" style={{textDecoration:"none"}} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="2x" color="black" />github.com/Akash044 </a> <br/>
+        <a href="https://www.linkedin.com/in/akash002/" style={{textDecoration:"none"}} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" color="#0a66c2" />linkedin.com/in/akash002 </a>
       </div>
       <form onSubmit={handleContactForm} className="second-half shadow" data-aos="fade-up">
         <h4>Contact with me:</h4>
