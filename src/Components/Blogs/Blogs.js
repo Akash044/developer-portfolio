@@ -10,7 +10,9 @@ const Blogs = () => {
       <DiagonalShape />
       <div className="blogs-page text-white">
 
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem"}}  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img src="https://miro.medium.com/max/750/1*1WU4GysLtqGaClWNI9urIA.jpeg" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title text-dark">Some basic concept of JavaScript</h5>
@@ -23,7 +25,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem"}} data-aos="slide-down">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9w35oo8Yvrbz3YJIrWoDJg52LPe52RIZmZQ&usqp=CAU" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title text-dark">A short review of some JavaScript Math and Array methods</h5>
@@ -36,7 +38,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem"}} data-aos="slide-up">
           <img src="https://frontendjournal.com/wp-content/uploads/2020/09/Javascript-ES6.jpg" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title text-dark">ES6 short overview: Block Bindings and Functions</h5>
@@ -49,7 +51,9 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem"}} data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img src="https://miro.medium.com/max/650/1*rJB4Tcz_ZZnliNxYmdfGqw.jpeg" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title text-dark">JavaScript JSX, Element, Component, Virtual DOM</h5>

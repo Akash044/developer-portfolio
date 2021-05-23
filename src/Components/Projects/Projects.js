@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects.css";
 
 import im1 from "../../Images/p01/p01 p01.jpg";
@@ -13,47 +13,33 @@ import img01 from "../../Images/p03/p03 p01.jpg";
 import img02 from "../../Images/p03/p03 p02.jpg";
 import img03 from "../../Images/p03/p03 p03.jpg";
 import img04 from "../../Images/p03/p03 p04.jpg";
-import img05 from '../../Images/p04/p04 p01.jpg';
-import img06 from '../../Images/p04/p04 p02.jpg';
-import img07 from '../../Images/p04/p04 p03.jpg';
-import img08 from '../../Images/p04/p04 p04.jpg';
-import img09 from '../../Images/p05/p05 p01.jpg';
-import img10 from '../../Images/p05/p05 p02.jpg';
-import img11 from '../../Images/p05/p05 p03.jpg';
-import img12 from '../../Images/p05/p05 p04.jpg';
-import img13 from '../../Images/p06/p06 p01.jpg';
-import img14 from '../../Images/p06/p06 p02.jpg';
-import img15 from '../../Images/p06/p06 p03.jpg';
-import img16 from '../../Images/p06/p06 p04.jpg';
+import img05 from "../../Images/p04/p04 p01.jpg";
+import img06 from "../../Images/p04/p04 p02.jpg";
+import img07 from "../../Images/p04/p04 p03.jpg";
+import img08 from "../../Images/p04/p04 p04.jpg";
+import img09 from "../../Images/p05/p05 p01.jpg";
+import img10 from "../../Images/p05/p05 p02.jpg";
+import img11 from "../../Images/p05/p05 p03.jpg";
+import img12 from "../../Images/p05/p05 p04.jpg";
+import img13 from "../../Images/p06/p06 p01.jpg";
+import img14 from "../../Images/p06/p06 p02.jpg";
+import img15 from "../../Images/p06/p06 p03.jpg";
+import img16 from "../../Images/p06/p06 p04.jpg";
 
 import Navbar from "../Navbar/Navbar";
 
 const Projects = () => {
-//   const [image, setImage] = useState({})
 
-//  const handleMouseOver = (e) => {
-//          console.log(e.target.src)
-//          setImage({src: e.target.src});
-//  }
-//  const handleOnClick = (e) => {
-//    e.target.style.display = "none";
-//    setImage({});
-//  }
-  
   return (
     <div>
       <Navbar />
       <div className="project-page">
-        <div>
-          {/* <img src={image.src} style={{ width:"30rem"}} onClick={handleOnClick} alt=""/> */}
-        </div>
         <div className="project-body shadow" data-aos="fade-down">
-
           <div className="project-info">
             {/* //project information */}
             <div>
               {/* //header */}
-              <h1>Cool Repair</h1>{" "}
+              <h1>Cool Repair</h1>
               <a
                 className="me-2"
                 target="_blank"
@@ -235,7 +221,7 @@ const Projects = () => {
               />
             </div>
           </div>
-        </div> 
+        </div>
 
         {/* 2nd project */}
         <div className="project-body shadow" data-aos="fade-left">
@@ -414,13 +400,15 @@ const Projects = () => {
             </div>
           </div>
         </div>
-{/* 2nd project end here */}
+        {/* 2nd project end here */}
 
-{/* 3rd project start here */}
-        <div className="project-body shadow" 
-        data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        {/* 3rd project start here */}
+        <div
+          className="project-body shadow"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="project-info">
             {/* //project information */}
             <div>
@@ -581,12 +569,13 @@ const Projects = () => {
         </div>
         {/* 3rd project end here */}
 
-
         {/* 4th project start here */}
-        <div className="project-body shadow" 
-        data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos="fade-down-left">
+        <div
+          className="project-body shadow"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="project-info">
             {/* //project information */}
             <div>
@@ -615,13 +604,15 @@ const Projects = () => {
               {/* //description */}
               <ul>
                 <li>
-                  Adjustable to every device and at landing page by default users can see some leagues.
+                  Adjustable to every device and at landing page by default
+                  users can see some leagues.
                 </li>
                 <li>
                   The users can click any league to know about that league.
                 </li>
                 <li>
-                  After  clicking the details button users are able to see the details.
+                  After clicking the details button users are able to see the
+                  details.
                 </li>
               </ul>
             </div>
@@ -754,14 +745,11 @@ const Projects = () => {
             <div>
               {/* //description */}
               <ul>
+                <li>Device friendly and user can search any type of foods.</li>
+                <li>Search results are displayed.</li>
                 <li>
-                  Device friendly and user can search any type of foods.
-                </li>
-                <li>
-                  Search results are displayed.
-                </li>
-                <li>
-                  The client can select any food item and will be able to see the details ingredients.
+                  The client can select any food item and will be able to see
+                  the details ingredients.
                 </li>
               </ul>
             </div>
@@ -857,11 +845,13 @@ const Projects = () => {
         </div>
         {/* 5th project end here */}
 
-
         {/* 6th project start here */}
-        <div className="project-body shadow"data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="project-body shadow"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="project-info">
             {/* //project information */}
             <div>
@@ -889,16 +879,22 @@ const Projects = () => {
               {/* //description */}
               <ul>
                 <li>
-                  The clients can buy flight tickets simply entering basic information.
+                  The clients can buy flight tickets simply entering basic
+                  information.
                 </li>
                 <li>
-                  The clients have to choose the route as well as their flight time and can book returning flight if they want.
+                  The clients have to choose the route as well as their flight
+                  time and can book returning flight if they want.
                 </li>
                 <li>
-                  There have two types of ticket first class and economy class with different price point. The clients can easily specify how many tickets they actually want to buy by selecting plus and minus button.
+                  There have two types of ticket first class and economy class
+                  with different price point. The clients can easily specify how
+                  many tickets they actually want to buy by selecting plus and
+                  minus button.
                 </li>
                 <li>
-                  After pressing book now button, the clients are able to see a pop up window for confirming their bookings. 
+                  After pressing book now button, the clients are able to see a
+                  pop up window for confirming their bookings.
                 </li>
               </ul>
             </div>

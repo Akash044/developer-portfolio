@@ -3,7 +3,7 @@ import './DiagonalShape.css'
 
 const DiagonalShape = () => {
     return (
-        <div className="diagonal-box">
+        <div className="diagonal-box position-fixed">
             <div className="content">
                 {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque beatae quisquam tenetur magnam repellendus nulla omnis eveniet quidem, ipsa porro suscipit voluptas. Blanditiis quia quae ducimus aut molestias rem illo!
                 Officiis laudantium dolor, dolorem sapiente esse perferendis sunt recusandae necessitatibus ducimus nesciunt consequatur molestias earum fugiat autem quas nemo fugit pariatur, laboriosam voluptatum nisi nihil. In magnam maxime animi maiores.

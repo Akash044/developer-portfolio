@@ -13,7 +13,7 @@ import mySql from '../../Images/skills icon/mysql.png'
 const CV = () => {
   return (
     <div>
-        <Navbar />
+        <Navbar  />
       <div className="cv-page" >
         
         <div className="text-center skills-header"> 

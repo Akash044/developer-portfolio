@@ -8,7 +8,8 @@ import {
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import DiagonalShape from "../DiagonalShape/DiagonalShape";
-import ReactTypingEffect from 'react-typing-effect';
+import ReactTypingEffect from "react-typing-effect";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,29 +19,36 @@ const Home = () => {
       <div className="home-page-header">
         <div className="left-portion" data-aos="fade-up">
           <div className="left-text-small">
-            <p style={{ fontSize: "30px", fontWeight: "bold",color:"white" }}>
-            Hey, I'm a Junior{" "} <br/>
+            <p style={{ fontSize: "30px", fontWeight: "bold", color: "white" }}>
+              Hey, I'm a Junior <br />
               <ReactTypingEffect
-              typingDelay = "500"
-              text={["Front-End Web", "M.E.R.N. Stack","Full Stack Web"]}
-              /> <br/>
-               Developer
+                typingDelay="500"
+                eraseSpeed = "200"
+                text={["Front-End Web", "M.E.R.N. Stack", "Full Stack Web"]}
+              />
+              <br />
+              Developer
             </p>
           </div>
           <div className="left-text-big pt-4">
-            <p style={{ fontSize: "60px", fontWeight: "bold", color:"white" }}>
-              Hey, I'm a Junior{" "} <br/>
+            <p style={{ fontSize: "60px", fontWeight: "bold", color: "white" }}>
+              Hey, I'm a Junior <br />
               <ReactTypingEffect
-              typingDelay = "500"
-             text={["Front-End Web", "M.E.R.N. Stack","Full Stack Web"]}
-              /> <br/>
-               Developer
+                typingDelay="200"
+                eraseSpeed = "200"
+                speed="300"
+                text={["Front-End Web", "M.E.R.N. Stack", "Full Stack Web"]}
+              />
+              <br />
+              Developer
             </p>
-           
           </div>
 
-          <div  data-aos="fade-down-left">
-            <p className="big-below-txt" style={{ color: "white", fontSize: "19px" }}>
+          <div data-aos="fade-down-left">
+            <p
+              className="big-below-txt"
+              style={{ color: "white", fontSize: "19px" }}
+            >
               Hi, I'm Akash, Front-End web developer. I help brands turn their
               ideas into high quality products.
             </p>
@@ -50,20 +58,30 @@ const Home = () => {
               href="https://github.com/Akash044"
               style={{ padding: "5px", textDecoration: "none" }}
             >
-              <FontAwesomeIcon className="bg-white" icon={faGithubSquare} size="2x" color="black" />{" "}
+              <FontAwesomeIcon
+                className="bg-white"
+                icon={faGithubSquare}
+                size="2x"
+                color="black"
+              />{" "}
             </a>
             <a
               href="https://www.linkedin.com/in/akash002/"
               style={{ padding: "5px", textDecoration: "none" }}
             >
-              <FontAwesomeIcon className="bg-white" icon={faLinkedin} size="2x" color="#0a66c2" />{" "}
+              <FontAwesomeIcon
+                className="bg-white"
+                icon={faLinkedin}
+                size="2x"
+                color="#0a66c2"
+              />{" "}
             </a>
             <a
               href="https://www.facebook.com/akash.hossain.5895/"
               style={{ padding: "5px", textDecoration: "none" }}
             >
               <FontAwesomeIcon
-              className="bg-white "
+                className="bg-white "
                 icon={faFacebookSquare}
                 size="2x"
                 color="#385898"
@@ -76,6 +94,12 @@ const Home = () => {
                 Download resume
               </button>
             </a>
+
+            <Link to="/contact">
+              <button type="button" class="btn btn-outline-success text-white ms-2">
+                Hire me
+              </button>
+            </Link>
           </div>
         </div>
         <div className="right-side" data-aos="fade-down-left">
